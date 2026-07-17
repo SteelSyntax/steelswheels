@@ -1,1 +1,14 @@
+body {
+	background-color: #454545; 
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:#d0bdf4;
+}
 
+a:visited {
+color: #a270ff;
+}
+
+a:link {
+color: #7077ff;
+}
