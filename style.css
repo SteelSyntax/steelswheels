@@ -101,7 +101,9 @@ table, th, td, a {
 
 
 #priceListCard {
-
+  background-image: url("https://github.com/SteelSyntax/steelswheels/blob/d8560e643d872ab05cc9cc19a7e3ab6a559947c9/assests/img/priceListImg.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #galleryCard {
