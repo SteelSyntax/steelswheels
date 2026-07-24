@@ -1,12 +1,19 @@
+/*-----------------General-----------------*/
 body {
 	background-color: #32394c; 
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color:#f7ca1e;
+  margin: 0;
+  padding: 0;
 }
 
 a:visited {
 	color: #f7ca1e;
+}
+
+a {
+  text-decoration:none;
 }
 
 a:link {
@@ -18,7 +25,10 @@ main {
 }
 
 
-/*Navigation*/
+
+
+
+/*-----------------Navigation-----------------*/
 /* Navbar container */
 nav {
   background-color: #333333; /* black bar */
@@ -67,12 +77,68 @@ nav ul li a:hover {
 
 
 
-table, th, td {
-  border: 1px;
-  border-colour:#f7ca1e;
-  border-collapse: collapse;
-}
-th, td {
-  background-color: #32394c;
+
+
+
+/*-----------------Main Page-----------------*/
+table {
+  border-collapse: separate;
+  border-spacing: 10px; /* space between cells */
 }
 
+th, td {
+  border: 1px solid #f7ca1e;
+  border-radius: 6px;
+  background-color: #32394c;
+  width: 400px;
+  height: 400px;
+}
+
+table, th, td, a {
+  text-align: center;
+  padding: 5px;
+}
+
+
+#priceListCard {
+
+}
+
+#galleryCard {
+  background-image: url("https://github.com/SteelSyntax/steelswheels/blob/d8560e643d872ab05cc9cc19a7e3ab6a559947c9/assests/img/galleryCardImg.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#placeholder1Card {
+  
+}
+
+#placeholder2Card {
+  
+}
+
+#priceListCard a, #galleryCard a, #placeholder1Card a, #placeholder2Card a {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f7ca1e;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+
+
+
+/*-----------------Footer-----------------*/
+footer {
+  background-color: #333333; /* black bar */
+  width: 100%;
+  display: flex;
+  justify-content: center; /* centers content horizontally */
+  align-items: center; /* centers content vertically */
+  color: #575859;
+  padding: 10px 0; /* adds breathing space */
+  position: relative; /* ensures proper layout */
+  z-index: 1000;
+  margin: 0;
+  left: 0;
+}
