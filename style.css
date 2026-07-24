@@ -6,11 +6,11 @@ body {
 }
 
 a:visited {
-	color: #a270ff;
+	color: #f7ca1e;
 }
 
 a:link {
-	color: #7077ff;
+	color: #f7ca1e;
 }
 
 main {
@@ -64,3 +64,15 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #111111;
 }
+
+
+
+table, th, td {
+  border: 1px;
+  border-colour:#f7ca1e;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #32394c;
+}
+
